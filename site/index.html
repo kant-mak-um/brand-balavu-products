@@ -1,1 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Balavu — Wing Sails for Modular Watercraft</title>
+  <meta name="description" content="Balavu develops wing sail systems and rig accessories designed to integrate with modular boats across multiple markets." />
+  <meta name="robots" content="index,follow" />
 
+  <!-- Optional: Open Graph (nice later; harmless now) -->
+  <meta property="og:title" content="Balavu — Wing Sails for Modular Watercraft" />
+  <meta property="og:description" content="Wing sail systems and rig accessories designed for modular boats." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.balavu.com/" />
+
+  <style>
+    :root { --border:#ddd; --muted:#666; --bg:#fafafa; }
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; max-width: 980px; margin: 44px auto; padding: 0 18px; line-height: 1.45; }
+    header { display:flex; justify-content:space-between; gap:18px; align-items:baseline; border-bottom:1px solid var(--border); padding-bottom:14px; margin-bottom:20px; }
+    .brand { font-size: 28px; margin: 0; }
+    .tag { color: var(--muted); margin: 6px 0 0; }
+    nav a { margin-right: 14px; color: #0b57d0; text-decoration: none; }
+    nav a:hover { text-decoration: underline; }
+    .grid { display:grid; grid-template-columns: 1fr; gap: 14px; }
+    .card { border:1px solid var(--border); border-radius: 12px; padding: 16px; background: white; }
+    .card h2 { margin: 0 0 8px; font-size: 18px; }
+    .muted { color: var(--muted); }
+    .pill { display:inline-block; font-size: 12px; padding: 3px 10px; border:1px solid var(--border); border-radius: 999px; background: var(--bg); margin-right: 8px; }
+    footer { margin-top: 26px; padding-top: 14px; border-top: 1px solid var(--border); color: var(--muted); font-size: 14px; }
+    code { background:#f3f3f3; padding:2px 6px; border-radius: 6px; }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1 class="brand">Balavu</h1>
+      <p class="tag">Wing sails + rig accessories for modular watercraft</p>
+    </div>
+    <nav aria-label="Primary">
+      <a href="#overview">Overview</a>
+      <a href="#kits">Kits</a>
+      <a href="#accessories">Accessories</a>
+      <a href="#status">Status</a>
+    </nav>
+  </header>
+
+  <main class="grid">
+    <section id="overview" class="card">
+      <h2>Overview</h2>
+      <p>
+        Balavu develops <strong>wing sail systems</strong> and supporting rig components intended to integrate with
+        modular boats and modular accessory ecosystems.
+      </p>
+      <p class="muted">
+        This site will start simple and expand as production ramps. Commerce and memberships will be handled by WaterWolf (private platform).
+      </p>
+      <div>
+        <span class="pill">Modular integration</span>
+        <span class="pill">Wing sail focus</span>
+        <span class="pill">Accessory ecosystem</span>
+      </div>
+    </section>
+
+    <section id="kits" class="card">
+      <h2>Kits (placeholder)</h2>
+      <p class="muted">
+        Product kits will be published here as they become available.
+      </p>
+      <p class="muted">
+        Data source: <code>/catalog/products.json</code>
+      </p>
+    </section>
+
+    <section id="accessories" class="card">
+      <h2>Accessories (placeholder)</h2>
+      <p class="muted">
+        Rigging and integration accessories will be listed here as they are finalized.
+      </p>
+      <p class="muted">
+        Data source: <code>/catalog/accessories.json</code>
+      </p>
+    </section>
+
+    <section id="status" class="card">
+      <h2>Status</h2>
+      <p>
+        Pre-launch. Public documentation and product definitions will be expanded as kits and accessories are ready.
+      </p>
+      <p class="muted">
+        If you arrived here from an early listing (e.g., market tests), check back as the catalog grows.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div>© Balavu. All rights reserved unless otherwise stated in repository licensing files.</div>
+  </footer>
+</body>
+</html>
